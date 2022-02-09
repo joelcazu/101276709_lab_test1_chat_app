@@ -1,0 +1,32 @@
+{
+  "name": "101276709_lab_test1_chat_app",
+  "version": "1.0.0",
+  "description": "Lab Test 1 - Chat Applicattion",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelcazu/101276709_lab_test1_chat_app.git"
+  },
+  "author": "Joel Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joelcazu/101276709_lab_test1_chat_app/issues"
+  },
+  "homepage": "https://github.com/joelcazu/101276709_lab_test1_chat_app#readme",
+  "dependencies": {
+    "@socket.io/mongo-adapter": "^0.1.0",
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.2.1",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
